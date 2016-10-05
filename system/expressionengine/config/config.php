@@ -29,6 +29,9 @@ $config['cookie_httponly'] = 'y';
 
 $config['site_index'] = '';
 
+$config['theme_folder_url'] = $config['site_url'].'/themes/';
+$config['theme_folder_path'] = $_SERVER['DOCUMENT_ROOT'].'/themes/';
+
 
 // END EE config items
 
