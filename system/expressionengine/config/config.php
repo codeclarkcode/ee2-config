@@ -32,6 +32,12 @@ $config['site_index'] = '';
 $config['theme_folder_url'] = $config['site_url'].'/themes/';
 $config['theme_folder_path'] = $_SERVER['DOCUMENT_ROOT'].'/themes/';
 
+$config['save_tmpl_files'] = 'y';
+$config['tmpl_file_basepath'] = $_SERVER['DOCUMENT_ROOT'].'/system/expressionengine/templates/';
+$config['site_404'] = '404/index';
+$config['strict_urls'] = 'y';
+$config['hidden_template_indicator'] = '.';
+
 
 // END EE config items
 
