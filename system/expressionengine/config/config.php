@@ -38,6 +38,14 @@ $config['site_404'] = '404/index';
 $config['strict_urls'] = 'y';
 $config['hidden_template_indicator'] = '.';
 
+$config['avatar_url'] = $config['site_url'].'/images/avatars/';
+$config['avatar_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/avatars/';
+$config['photo_url'] = $config['site_url'].'/images/member_photos/';
+$config['photo_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/member_photos/';
+$config['sig_img_url'] = $config['site_url'].'/images/signature_attachments/';
+$config['sig_img_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/signature_attachments/';
+$config['prv_msg_upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/pm_attachments/';
+
 
 // END EE config items
 
