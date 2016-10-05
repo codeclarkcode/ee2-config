@@ -1,6 +1,8 @@
 # ExpressionEngine 2 Config Files
 
-Updates the default ExpressionEngine configuration files (`config.php` and `database.php`) to include more overrides and dynamically set variables for faster deployment and easier development. Currently coded for a single develpment environment.
+Updates the default ExpressionEngine configuration files (`config.php` and `database.php`) to include more overrides and dynamically set variables for faster deployment and easier development. Intended to be simple and not involve adding any new files to the mix.
+
+_(The idea behind creating an ExpressionEngine "master config" is not my own. Thanks to everyone who has openly shared their files.)_
 
 Notes:
 
