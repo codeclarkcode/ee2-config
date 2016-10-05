@@ -50,6 +50,19 @@ $config['enable_online_user_tracking'] = 'n';
 $config['enable_hit_tracking'] = 'n';
 $config['enable_entry_view_tracking'] = 'n';
 
+// $config['upload_preferences'] = array(
+//     1 => array(
+//         'name'        => 'Default Image Uploads',
+//         'server_path' => $_SERVER['DOCUMENT_ROOT'].'/images/uploads/',
+//         'url'         => $config['site_url'].'/images/uploads/'
+//     ),
+//     2 => array(
+//         'name'        => 'Other Upload Location',
+//         'server_path' => $_SERVER['DOCUMENT_ROOT'].'/other_path/',
+//         'url'         => $config['site_url'].'/other_path/'
+//     )
+// )
+
 
 // END EE config items
 
