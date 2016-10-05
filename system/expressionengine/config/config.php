@@ -46,6 +46,10 @@ $config['sig_img_url'] = $config['site_url'].'/images/signature_attachments/';
 $config['sig_img_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/signature_attachments/';
 $config['prv_msg_upload_path'] = $_SERVER['DOCUMENT_ROOT'].'/images/pm_attachments/';
 
+$config['enable_online_user_tracking'] = 'n';
+$config['enable_hit_tracking'] = 'n';
+$config['enable_entry_view_tracking'] = 'n';
+
 
 // END EE config items
 
