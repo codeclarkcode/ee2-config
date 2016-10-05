@@ -11,17 +11,23 @@
 |
 */
 
-$config['app_version'] = '2.xx.x';
 $config['license_contact'] = 'email@eeconfig.com';
 $config['license_number'] = 'xxxx-xxxx-xxxx-xxxx';
+
+$config['site_name'] = "EE Config";
+$config['site_url'] = "https://".$_SERVER['SERVER_NAME'];
+
+$config['app_version'] = '2.xx.x';
 $config['debug'] = '1';
-$config['cp_url'] = 'http://eeconfig.com/system/index.php';
+$config['cp_url'] = $config['site_url'].'/system/index.php';
 $config['doc_url'] = 'https://docs.expressionengine.com/v2/';
 $config['is_system_on'] = 'y';
 $config['allow_extensions'] = 'y';
 $config['cache_driver'] = 'file';
 $config['cookie_prefix'] = '';
 $config['cookie_httponly'] = 'y';
+
+$config['site_index'] = '';
 
 
 // END EE config items
