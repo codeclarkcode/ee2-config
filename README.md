@@ -2,7 +2,7 @@
 
 Updates the default ExpressionEngine configuration files (`config.php` and `database.php`) to include more overrides and dynamically set variables for faster deployment and easier development. Intended to be simple and not involve adding any new files to the mix.
 
-_(The idea behind creating an ExpressionEngine "master config" is not my own. Thanks to everyone who has openly shared their files.)_
+_(The idea behind creating an ExpressionEngine "master config" is not my own. Thanks to everyone who has written on the subject and shared their code.)_
 
 Notes:
 
@@ -11,6 +11,7 @@ Notes:
 
 Assumptions:
 
+* You'll be using two development environments (local & production).
 * Site is using HTTPS.
 * `index.php` will be removed from your URL.
 * Templates will be saved as files.
@@ -22,11 +23,12 @@ Assumptions:
 Variables To Change Before Implementation:
 
 * In `config.php`
+  * Local and production URLs (in environment switch statement)
   * `$config['license_contact']`
   * `$config['license_number']`
   * `$config['site_name']`
   * `$config['app_version']`
-* In `database.php`
+* In `database.php` (for both local and production databases)
   * `$db['expressionengine']['hostname']`
   * `$db['expressionengine']['username']`
   * `$db['expressionengine']['password']`

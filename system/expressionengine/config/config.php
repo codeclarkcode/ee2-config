@@ -2,6 +2,22 @@
 
 /*
 |--------------------------------------------------------------------------
+| Set the Environment
+|--------------------------------------------------------------------------
+*/
+switch ($_SERVER['SERVER_NAME']) {
+    // Local
+    case 'eeconfig.dev':
+        define('ENV', 'local');
+    break;
+    // Production
+    case 'eeconfig.com':
+        define('ENV', 'production');
+    break;
+}
+
+/*
+|--------------------------------------------------------------------------
 | ExpressionEngine Config Items
 |--------------------------------------------------------------------------
 |
@@ -10,7 +26,6 @@
 | observed by ExpressionEngine, e.g. 'permitted_uri_chars'
 |
 */
-
 $config['license_contact'] = 'email@eeconfig.com';
 $config['license_number'] = 'xxxx-xxxx-xxxx-xxxx';
 
@@ -62,9 +77,6 @@ $config['enable_entry_view_tracking'] = 'n';
 //         'url'         => $config['site_url'].'/other_path/'
 //     )
 // )
-
-
-// END EE config items
 
 /*
 |--------------------------------------------------------------------------
