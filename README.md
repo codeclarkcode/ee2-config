@@ -11,9 +11,10 @@ Notes:
 
 Assumptions:
 
+* Site is using HTTPS.
 * `index.php` will be removed from your URL.
 * Templates will be saved as files.
-* Strict URLs will be enabled
+* Strict URLs will be enabled.
 * 404 errors will use the `404/index` template_group/template.
 * Template hit tracking should be turned off.
 * Hidden template indicator should be a `.` instead of `_`.
